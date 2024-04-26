@@ -1,6 +1,5 @@
-// hooks.jsx
-import { useState, useEffect } from 'react';
-import { fetchProducts } from './api';
+import { useState, useEffect } from "react";
+import { fetchProducts } from "./api";
 
 export const useProducts = () => {
   const [products, setProducts] = useState([]);
